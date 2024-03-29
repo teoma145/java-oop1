@@ -22,13 +22,13 @@ public class Main {
             switch (scelta) {
                 case 1:
                     System.out.println("Quanto vuoi depositare?");
-                    double deposito = scan.nextInt();
+                    double deposito = scan.nextDouble();
                     conto1.Deposita(deposito);
                     System.out.println("il tuo nuovo saldo è "+ conto1.saldo);
                     break;
                 case 2:
                     System.out.println("Quanto vuoi prelevare?");
-                    double prelievo = scan.nextInt();
+                    double prelievo = scan.nextDouble();
                     conto1.Preleva(prelievo);
                     System.out.println("il tuo nuovo saldo è "+ conto1.saldo);
                     break;
